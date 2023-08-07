@@ -1,16 +1,2 @@
-#!/usr/bin/python3
-pyfile="$PYFILE"
-
-# Check if the environment variable $PYFILE is set
-if [ -z "$pyfile" ]; then
-    echo "Error: Environment variable \$PYFILE is not set."
-    exit 1
-fi
-
-# Check if the specified Python file exists
-if [ ! -f "$pyfile" ]; then
-    echo "Error: File '$pyfile' not found."
-    exit 1
-fi
-
-python3 "$pyfile"
+#!/bin/bash
+python3 "$PYFILE"
