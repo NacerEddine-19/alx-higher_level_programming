@@ -9,7 +9,7 @@ def add_integer(a, b=98):
     This function returns the integer addition of a and b.
 
     If either a or b is a non-integer and non-float, TypeError is raised.
-    Float arguments are typecasted.
+    Float arguments are typecast.
     """
 
     # Check if a is not an integer or a float
